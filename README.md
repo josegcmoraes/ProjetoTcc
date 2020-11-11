@@ -34,35 +34,40 @@ todas as cidades e respeitando as restrições de quantidade e capacidade dos ve
   ```
 
 * Argumentos:
-  1) nome da instância:
-  *   c50_13mix.txt
-  *   c50_14mix.txt
-  *   c50_15mix.txt
-  *   c50_16mix.txt
-  *   c75_17mix.txt
-  *   c75_18mix.txt
-  *   c100_19mix.txt
-  *   c100_20mix.txt
-  
-  2) quantidade de soluções que o serão criadas para o problema
-  *   A população de soluções foram definidas da seguinte forma
-  *   50 clientes  => 150 soluções
-  *   75 clientes  => 225 soluções
-  *   100 clientes => 300 soluções
-  
-  3) máximo de gerações: quantidade de gerações utilizadas para evoluir o conjunto de soluções
-  *   A quantidade de gerações foi definida da seguinte forma
-  *   50 clientes  => 150 soluções
-  *   75 clientes  => 225 soluções
-  *   100 clientes => 300 soluções
-  
-  4) qual dos algoritmos criados será utilizado na etapa de evolução das soluções
-  *   rkga colocar  => normal  
-  *   brkga colocar => brkga  
-  
-  5) semente de números aleatórios
-  *   0 até 10
-  
+  * nome da instância:
+  ```
+  c50_13mix.txt
+  c50_14mix.txt
+  c50_15mix.txt
+  c50_16mix.txt
+  c75_17mix.txt
+  c75_18mix.txt
+  c100_19mix.txt
+  c100_20mix.txt
+  ```
+  * quantidade de soluções que o serão criadas para o problema
+  ``` 
+  A população de soluções foram definidas da seguinte forma
+  50 clientes  => 150 soluções
+  75 clientes  => 225 soluções
+  100 clientes => 300 soluções
+  ```  
+  * máximo de gerações: quantidade de gerações utilizadas para evoluir o conjunto de soluções
+  ```
+  A quantidade de gerações foi definida da seguinte forma
+  50 clientes  => 150 soluções
+  75 clientes  => 225 soluções
+  100 clientes => 300 soluções
+  ```
+  * qual dos algoritmos criados será utilizado na etapa de evolução das soluções
+  ```
+  rkga colocar  => normal  
+  brkga colocar => brkga  
+  ```
+  * semente de números aleatórios
+  ```
+  0 até 10
+  ```
 * salva o resultado em um arquivo
 
 
